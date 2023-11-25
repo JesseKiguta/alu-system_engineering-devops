@@ -4,7 +4,7 @@
 apt-get update
 apt-get -y install nginx
 
-# Adding a HTML page
+# Adding an HTML page
 echo "Holberton School" > /var/www/html/index.html
 
 CONFIG=\
@@ -14,7 +14,7 @@ CONFIG=\
 
         root /var/www/html;
 
-        index index.html index.htm index.nginx-debian.html;
+        index.html index.nginx-debian.html;
 	server_name _;
 	rewrite ^/redirect_me(.*)$ http://www.google.com/ permanent;
         location / {
