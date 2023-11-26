@@ -36,3 +36,4 @@ else
 	sudo service nginx start
 	echo "Nginx has started"
 fi
+echo "done"
