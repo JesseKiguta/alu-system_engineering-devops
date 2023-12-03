@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env bash
 # Installing UFW (Uncomplicated Firewall)
 
 sudo apt-get update
